@@ -7,7 +7,7 @@ function fetchData(){
 
 const OrangeButton = () => {
   return (
-    <button onclick="fetchData()" className="orange-button">Click Me</button>
+    <button onclick={()=> fetchData} className="orange-button">Click Me</button>
   );
 }
 
